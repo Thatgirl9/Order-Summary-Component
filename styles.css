@@ -119,7 +119,6 @@ body{
   color:var(--card--bg--color);
   font-weight: 700;
   padding:0.9em 5.5em;
-  width:em;
   border-radius: 10px;
   font-size:1.1rem;
   border:2px solid var(--btn--bg--color);
@@ -171,6 +170,8 @@ body{
     background-repeat: no-repeat;
   }
 
-
+  .order--btn{
+    padding:0.9em 5em;
+  }
 }
 
