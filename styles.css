@@ -24,12 +24,10 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
-.mobile--bg--img{
-  display:none;
-}
+
 
 .order__container{
   background-color: var(--card--bg--color);
@@ -38,7 +36,6 @@ body{
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  margin-top: 1em;
   padding-bottom:2em;
 }
 
@@ -159,7 +156,7 @@ body{
 
 @media screen and (max-width:768px){
  body{
-    background-image: none; 
+    background-image:url(./order-summary-component-main/images/pattern-background-mobile.svg); 
     width:100%;
   }
 
