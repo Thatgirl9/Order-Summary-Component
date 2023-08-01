@@ -24,7 +24,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
+  min-height: 90vh;
 }
 
 .mobile--bg--img{
@@ -156,25 +156,28 @@ body{
 }
 
 
-/* Media Queries */
+/* Media Queries 
 
 @media screen and (max-width:768px){
-  body{
+ body{
     background-image: none; 
     display:flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; 
+    min-height: 90vh;
+    width:100%;
   }
 
   .mobile--bg--img{
-    display:block;
+    display:none;
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .order__container{
-   /* width:100%; */
+   /* width:98%; 
   }
 
 }
