@@ -38,8 +38,8 @@ body{
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  margin-top: 1.5em;
-  padding-bottom:2.5em;
+  margin-top: 1em;
+  padding-bottom:2em;
 }
 
 .order--hero{
@@ -148,7 +148,7 @@ body{
 .attribution { 
   font-size: 11px; 
   text-align: center; 
-  margin-top:1em;
+  margin-top:0.6em;
 }
    
 .attribution a {
