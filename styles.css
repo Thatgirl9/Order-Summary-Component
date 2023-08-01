@@ -156,28 +156,23 @@ body{
 }
 
 
-/* Media Queries 
+/* Media Queries */
 
 @media screen and (max-width:768px){
  body{
     background-image: none; 
-    display:flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; 
-    min-height: 90vh;
     width:100%;
   }
 
+
   .mobile--bg--img{
-    display:none;
-    width:100%;
+    display:block;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .order__container{
-   /* width:98%; 
+   width:62%;
   }
 
 }
